@@ -1,0 +1,140 @@
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+
+
+.myheader{
+    background-color: #005943;
+     padding: 20px ;
+     
+  }
+  
+  
+
+  .message{
+    color: white;
+    text-align: center;
+  }
+  .myh1{
+    text-align: center;
+    color:white;
+    margin-right: 300px;
+    font-size: x-large;
+    font-size:30px;
+  }
+  .btn,.btn2,.btn3,.btn4{
+    display: block;
+   color: white;
+    text-align: center;
+    text-decoration: none;
+   margin: 15px;
+    background-color: #005943;
+   border: none;
+   box-shadow: none;
+   border-left: 0.5px solid white;
+   float: right;
+   position: relative;
+    top: -50px; 
+    font-size:14px;
+    padding: 10px 10px;
+    transition-duration: 0.4s;
+  }
+  .image{
+    float: left;
+    margin-top: -40px;
+    width: 10%;
+    height:98px;
+    margin-left: -19px;
+       
+  }
+  
+  
+  .btn:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+  
+  
+  }
+  .btn2:hover{
+    background-color:  white;
+    color: black;
+    padding: 10px 10px;
+    
+  }
+  
+  .btn3:hover{
+    background-color:  white;
+    color: black;
+     padding: 10px 10px;
+  
+  }
+   
+  .btn4:hover{
+    background-color:  white;
+    color: black;
+     padding: 10px 10px;
+  
+  }
+
+.notifications-dropdown {
+  display: none;
+  position: absolute;
+    right: 0;
+    background-color:#dbe0ea;
+    min-width: 250px; 
+    z-index: 1;
+    border-radius:2px;
+    max-height: 250px; 
+    overflow-y: auto;
+    margin-right: 300px;
+    text-align: center;
+    border: none;
+  
+}
+.notifications-dropdown a {
+    color: black;
+    padding: 12px 16px; 
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd; 
+    
+}
+.notifications-dropdown a:hover {
+    background-color: azure;
+}
+.notification-badge {     /* هنا ارقام الاشعارات  */
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+  padding: 1px 3px;
+  font-size: 10px;
+  position: absolute; 
+  top: 0;
+  left: 0;
+   margin-left: 3px;
+}
+  @media print {
+
+   
+    .btn,.btn2,.btn3,.btn4{
+      display: none;
+  
+    }
+    .image{
+      display: none;
+    }
+    .myheader{
+      display: none;
+    }
+
+  }

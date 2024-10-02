@@ -1,0 +1,66 @@
+
+.myfooter{
+  background-color: #4f5258;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px; 
+  height: 60px; 
+  line-height: 30px;
+    display: flex;
+
+}
+  
+.a1,.a2,.a3{
+  color: white;
+  text-decoration: none;
+  float: right;
+  margin-left: 20px;
+  transition-duration: 0.4s;
+  padding: 10px 10px;
+   
+ 
+}
+.myp1{
+  text-align: left;
+ margin-top: 20px;
+  flex: 1;
+  align-items: center; 
+  color: white;
+}
+
+  
+.a1:hover{
+  background-color:  white;
+  color: black;
+  padding: 5px 5px;
+}
+.a2:hover{
+  background-color:  white;
+  color: black;
+  padding: 5px 5px;
+}
+.a3:hover{
+  background-color:  white;
+  color: black;
+  padding: 5px 5px;
+}
+
+
+@media print {
+
+
+  .myfooter{
+    display: none;
+  }
+     .myp1{
+      display: list-item;
+      list-style-type: disc;
+   
+     }
+     
+
+}
