@@ -7,30 +7,36 @@ import Common_questions from './common_questions';
 import Contact_us from './Contact_us';
 import Header from './header';
 import Footer from './footer';
+import { FullScreen, useFullScreenHandle } from "react-full-screen";
+
 
 function App() {
+  const handle = useFullScreenHandle();
   return (
 
 
-    <>
+    <> 
+    
    
-   <form className="search-container">
-        <input type="text" className="search-input" placeholder="Search"/> 
-        
-        <button className="btn_search" >
-        <i className="fa fa-search"></i> </button>
-        </form>
 
       <section className='mysection'>
-        
+   
+      <FullScreen  handle={handle}>
+     
         <iframe className='myiframe'
          
-          src="http://127.0.0.1:6579/" 
-           allowFullScreen
-          title="Power BI Report">
+          src="http://127.0.0.1:7105" 
+          allow="fullscreen"
+           allowFullScreen={true}
+          title="ٌR Report">
+            
         </iframe>
-
-        <br></br>  <br></br>  <br></br>
+     
+        </FullScreen>
+        <button className='full' onClick={handle.enter}>
+        <i className="fa fa-expand"></i> 
+      </button>
+        <br></br>  <br></br>  <br></br> <br></br>  <br></br>  <br></br>  <br></br>
  
       </section>
       

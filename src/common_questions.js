@@ -12,8 +12,8 @@ export default function Common_questions(){
 
   const Common_questions = [
     {
-      question: 'What is power bi?',
-      answer: 'It is one of Microsoft’s programs and is a set of statistical analysis tools through which data can be easily handled and then the results can be displayed in attractive ways and interactive visualizations.  It is characterized by an easy interface that can be used by non-specialists. It is also characterized by the ability to connect to a number of data sources, as it provides an easy mechanism for importing data from these sources.',
+      question: 'Is the data updated continuously?',
+      answer: 'No, not always, because it requires manual updating.',
     },
     {
       question: 'What do I need to view reports?',

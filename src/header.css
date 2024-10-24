@@ -47,6 +47,7 @@
     font-size:14px;
     padding: 10px 10px;
     transition-duration: 0.4s;
+    cursor: pointer;
   }
   .image{
     float: left;
@@ -124,7 +125,9 @@
    margin-left: 3px;
 }
   @media print {
-
+.page-break{
+  page-break-before: always;
+}
    
     .btn,.btn2,.btn3,.btn4{
       display: none;
@@ -136,5 +139,17 @@
     .myheader{
       display: none;
     }
-
+    .myh1{
+      display: none;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;  
+    }
+    
   }
